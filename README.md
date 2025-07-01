@@ -13,5 +13,8 @@ php artisan migrate
 php artisan prices:fetch
 php artisan serve
 
-# Price Api
+# Product list Api
 curl -H "API-Key: secretKey" http://localhost:8000/api/prices
+
+# Product details list Api
+curl -H "API-Key: secretKey" http://localhost:8000/api/prices/123
