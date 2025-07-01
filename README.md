@@ -16,5 +16,5 @@ php artisan serve
 # Product list Api
 curl -H "API-Key: secretKey" http://localhost:8000/api/prices
 
-# Product details list Api
+# Product details Api
 curl -H "API-Key: secretKey" http://localhost:8000/api/prices/123
